@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: #ED401E !important;
+
+}
+
+.bg-jumbotron {
+    background-color: rgba(0, 0, 0,.5) !important;
+}
+
+.jumbotron {
+    background-color: gray;
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-image: url('../img/jumbotron.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: multiply;
+    color: white;
+}
+
+
+
+.text-jumbotron {
+    font-size: 3rem;
+    color: black;
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 18rem;
+    width: 100%;
+    
+    /* overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .2em; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .20s step-end infinite; */
+}
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+.bg-about-us {
+    background-color: #082032;
+    color: white;
+
+}
+
+.img-about-company {
+    height: 20rem;
+    width: 20rem;
+    background-color: gray;
+    background-image: url('../img/introduction.jpg');
+    background-size: cover;
+    border: 2px solid #ED401E;
+}
+
+.left-about-us {
+    display: flex;
+    justify-content: center;
+}
+
+.headline-about-us {
+    color: #ED401E;
+}
+
+.right-about-us {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.bg-reccomendation {
+    background-color: #2C394B;
+    display: flex;
+    flex-direction: column;
+}
+
+.parent-reccomended {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.headline-reccomendation {
+    color: #ED401E;
+}
+
+.square-reccomended {
+    width: 30rem;
+    height: 18rem;
+    border:  1px solid #ED401E;
+    color: white;
+    display: flex;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 1rem;
+}
+
+.img-reccomended-square {
+    height: 15rem;
+    width: 50rem;
+    background-color: gray;
+}
+
+.rizky-img-reccomendation {
+    background-image: url('../img/Rizky.jfif');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ED401E;
+}
+
+.rifky-img-reccomendation {
+    background-image: url('../img/rifky/rifky.jpeg');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ED401E;
+}
+
+.gusti-img-reccomendation {
+    background-image: url('../img/gusti/gusti.png');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ED401E;
+}
+
+.halvin-img-reccomendation {
+    background-image: url('../img/halvin/halvin.jpeg');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ED401E;
+}
+
+.mathew-img-reccomendation {
+    background-image: url('../img/mathew/mathew.jpeg');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ED401E;
+}
+
+.zahran-img-reccomendation {
+    background-image: url('../img/zahran/zahran.jpeg');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #ED401E;
+}
+
+.right-reccomended {
+    margin-left: 2rem;
+}
+
+.headline-reccomended-square {
+    font-weight: bold;
+}
+
+.position-reccomended-square {
+    font-size: 1.2rem;
+}
+
+.link-reccomended {
+    text-decoration: none;
+}
+
+.parent-advantage {
+    justify-content: center;
+}
+
+.bg-advantage {
+    background-color: #082032;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.headline-advantage {
+    color: #ED401E;
+}
+
+.desc-advantage {
+    font-weight: bold;
+    color: white;
+}
+
+.text-advantage {
+    color: white
+}
+
+.shape-video-advantage {
+    height: 22rem;
+    width: 24rem;
+    /* background-color: gray; */
+    /* border: 1px solid black; */
+}
+
+.right-advantage {
+    display: flex;
+    justify-content: center;
+}
+
+.bg-sponsor {
+    height: 100%;
+    width: 100%;
+    background-color: #2C394B;
+}
+
+.parent-sponsor {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.gojek, .grab, .shopee, .telkomsel, .axis {
+    margin: 1rem;
+    height: 10rem;
+    width: 13rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gojek {
+    background-image: url('../img/gojek.png');
+}
+
+.grab {
+    background-image: url('../img/grab.png');
+}
+
+.shopee {
+    background-image: url('../img/shopee.png');
+}
+
+.telkomsel {
+    background-image: url('../img/telkomsel.jpg');
+}
+
+.axis {
+    background-image: url('../img/axis.jpg');
+}
+
+.bg-footer {
+    background-color: #ED401E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
